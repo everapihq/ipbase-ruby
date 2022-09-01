@@ -8,9 +8,11 @@ Gem::Specification.new do |spec|
   spec.authors = ["Benedikt Stoy"]
   spec.email = ["benedikt.stoy@everapi.com"]
   spec.summary = "A ruby wrapper for ipbase.com's API"
+  spec.description = "ipbase.com provides a reliable & scalable IP geolocation API for software developers. It uses a database of IP addresses associated with cities and other relevant information like time zone, latitude, and longitude."
   spec.homepage = "https://ipbase.com/"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
+  spec.extra_rdoc_files = ['README.md']
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/everapihq/ipbase-ruby"
 
